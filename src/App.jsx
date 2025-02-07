@@ -1,14 +1,13 @@
-import logo from './logo.svg';
-import React from 'react'
-import './App.css';
-import NewsData from './NewsData';
-
+import React from "react";
+import NewsList from "./NewsList";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div>
-      <h1>News App</h1>
-        <NewsData/>
+      <h1 className="text-center">Latest Tesla News</h1>
+
+      <NewsList />
     </div>
   );
 }

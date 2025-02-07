@@ -2,9 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import NewsData from './NewsData';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
+// import NewsData from './NewsData';
+
 
 
 // import reportWebVitals from './reportWebVitals';
